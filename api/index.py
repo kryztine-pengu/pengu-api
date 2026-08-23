@@ -1,17 +1,41 @@
-from fastapi import FastAPI
+<!DOCTYPE html>
 
-app = FastAPI()
+<html lang="en">
 
-@app.get("/")
-def home():
-    return {
-        "status": "success",
-        "message": "FastAPI is working on Vercel!"
-    }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Car Finder</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
 
-@app.get("/api")
-def api_test():
-    return {
-        "status": "success",
-        "message": "The /api route is working!"
-    }
+
+<body>
+    <header>
+        <h1>🚗 Simple Car Finder</h1>
+        <p> A website powered by a REST API </p>
+    </header>
+    <main>
+
+        <!-- SEARCH -->
+        <section class="search">
+            <input type="text" id="searchInput" placeholder="Search for a car...">
+            <button onclick="searchCars()"> Search </button>
+            <button class="secondary" onclick="loadCars()"> Show All </button>
+
+        </section>
+
+        <section>
+            <h2>Cars</h2>
+            <div id="carList" class="car-list">
+                Loading cars...
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Data provided by the Simple Car API </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
