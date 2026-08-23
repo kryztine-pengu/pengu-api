@@ -71,21 +71,21 @@ cars = [
 ]
 
 # HOME
-@app.get("/api")
+@app.get("/")
 def home():
 
     return {
         "message": "Welcome to the Simple Car API!",
         "endpoints": [
-            "/api/cars",
-            "/api/cars/{id}",
-            "/api/cars/search"
+            "/cars",
+            "/cars/{id}",
+            "/cars/search"
         ]
     }
 
 
 # GET ALL CARS
-@app.get("/api/cars")
+@app.get("/cars")
 def get_cars():
 
     return {
@@ -94,9 +94,23 @@ def get_cars():
     }
 
 
+# GET ONE CAR
+@app.get("/cars/{car_id}")
+def get_car(car_id: int):
+
+    for car in cars:
+
+        if car["id"] == car_id:
+            return car
+
+    raise HTTPException(
+        status_code=404,
+        detail="Car not found."
+    )
+
 # SEARCH CARS
-@app.get("/api/cars/search")
-def search_cars(q: str = Query(..., min_length=1)):
+@app.get("/cars/search")
+def search_cars( q: str = Query(..., min_length=1)):
     q = q.lower()
     results = []
     for car in cars:
@@ -115,18 +129,3 @@ def search_cars(q: str = Query(..., min_length=1)):
         "count": len(results),
         "results": results
     }
-
-
-# GET ONE CAR
-@app.get("/api/cars/{car_id}")
-def get_car(car_id: int):
-
-    for car in cars:
-
-        if car["id"] == car_id:
-            return car
-
-    raise HTTPException(
-        status_code=404,
-        detail="Car not found."
-    )
