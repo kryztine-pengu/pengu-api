@@ -1,9 +1,9 @@
-from fastapi import FastAPI, HTTPException, Header, Query
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="Simple Car API",
-    description="A beginner-friendly REST API containing information about cars.",
+    title="Simple Movie API",
+    description="A beginner-friendly REST API containing information about movies.",
     version="1.0.0"
 )
 
@@ -15,57 +15,47 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# CAR DATA
-cars = [
+# MOVIE DATA
+movies = [
 
     {
         "id": 1,
-        "make": "Toyota",
-        "model": "Corolla",
-        "year": 1998,
-        "engine": "1.6L 4-cylinder",
-        "horsepower": 105,
-        "description": "A practical and reliable compact sedan."
+        "title": "Spider-Man",
+        "year": 2002,
+        "genre": "Action, Superhero",
+        "director": "Sam Raimi",
+        "rating": 7.4,
+        "description": "A teenager gains spider-like abilities and learns to use them to become a hero."
     },
 
     {
         "id": 2,
-        "make": "Honda",
-        "model": "Civic Si",
-        "year": 1999,
-        "engine": "1.6L 4-cylinder",
-        "horsepower": 160,
-        "description": "A sporty compact car popular with enthusiasts."
+        "title": "Insidious",
+        "year": 2010,
+        "genre": "Horror, Mystery",
+        "director": "James Wan",
+        "rating": 6.8,
+        "description": "A family discovers that their son is trapped in a mysterious supernatural realm."
     },
 
     {
         "id": 3,
-        "make": "Mitsubishi",
-        "model": "Eclipse GSX",
-        "year": 1999,
-        "engine": "2.0L Turbo 4-cylinder",
-        "horsepower": 210,
-        "description": "A turbocharged AWD coupe built for performance."
+        "title": "Frozen",
+        "year": 2013,
+        "genre": "Animation, Adventure, Fantasy",
+        "director": "Chris Buck and Jennifer Lee",
+        "rating": 7.4,
+        "description": "A fearless princess sets out to find her sister and save their kingdom from an eternal winter."
     },
 
     {
         "id": 4,
-        "make": "Subaru",
-        "model": "Impreza WRX",
-        "year": 2002,
-        "engine": "2.0L Turbo 4-cylinder",
-        "horsepower": 227,
-        "description": "A turbocharged AWD performance sedan."
-    },
-
-    {
-        "id": 5,
-        "make": "Mazda",
-        "model": "MX-5 Miata",
-        "year": 2001,
-        "engine": "1.8L 4-cylinder",
-        "horsepower": 142,
-        "description": "A lightweight two-seat roadster famous for its handling."
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
     }
 
 ]
@@ -75,54 +65,58 @@ cars = [
 def home():
 
     return {
-        "message": "Welcome to the Simple Car API!",
+        "message": "Welcome to the Simple Movie API!",
         "endpoints": [
-            "/cars",
-            "/cars/{id}",
-            "/cars/search"
+            "/movies",
+            "/movies/{id}",
+            "/movies/search"
         ]
     }
 
 
-# GET ALL CARS
-@app.get("/cars")
-def get_cars():
+# GET ALL MOVIES
+@app.get("/movies")
+def get_movies():
 
     return {
-        "count": len(cars),
-        "cars": cars
+        "count": len(movies),
+        "movies": movies
     }
 
 
-# GET ONE CAR
-@app.get("/cars/{car_id}")
-def get_car(car_id: int):
+# GET ONE MOVIE
+@app.get("/movies/{movie_id}")
+def get_movie(movie_id: int):
 
-    for car in cars:
+    for movie in movies:
 
-        if car["id"] == car_id:
-            return car
+        if movie["id"] == movie_id:
+            return movie
 
     raise HTTPException(
         status_code=404,
-        detail="Car not found."
+        detail="Movie not found."
     )
 
-# SEARCH CARS
-@app.get("/cars/search")
-def search_cars( q: str = Query(..., min_length=1)):
+
+# SEARCH MOVIES
+@app.get("/movies/search")
+def search_movies(q: str = Query(..., min_length=1)):
+
     q = q.lower()
     results = []
-    for car in cars:
+
+    for movie in movies:
+
         searchable_text = (
-            f"{car['make']} "
-            f"{car['model']} "
-            f"{car['year']} "
-            f"{car['engine']}"
+            f"{movie['title']} "
+            f"{movie['year']} "
+            f"{movie['genre']} "
+            f"{movie['director']}"
         ).lower()
 
         if q in searchable_text:
-            results.append(car)
+            results.append(movie)
 
     return {
         "query": q,
