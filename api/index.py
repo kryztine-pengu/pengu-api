@@ -84,21 +84,6 @@ def get_movies():
     }
 
 
-# GET ONE MOVIE
-@app.get("/movies/{movie_id}")
-def get_movie(movie_id: int):
-
-    for movie in movies:
-
-        if movie["id"] == movie_id:
-            return movie
-
-    raise HTTPException(
-        status_code=404,
-        detail="Movie not found."
-    )
-
-
 # SEARCH MOVIES
 @app.get("/movies/search")
 def search_movies(q: str = Query(..., min_length=1)):
@@ -123,3 +108,18 @@ def search_movies(q: str = Query(..., min_length=1)):
         "count": len(results),
         "results": results
     }
+
+
+# GET ONE MOVIE
+@app.get("/movies/{movie_id}")
+def get_movie(movie_id: int):
+
+    for movie in movies:
+
+        if movie["id"] == movie_id:
+            return movie
+
+    raise HTTPException(
+        status_code=404,
+        detail="Movie not found."
+    )
