@@ -63,14 +63,9 @@ movies = [
         "title": "Interstellar",
         "year": 2014,
         "genre": "Aventure, Drama, Sci-Fi",
-        "duration": "2h 49mins",
-        "age limit": "PG-13",
         "director": "Christopher Nolan",
-        "stars": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
         "rating": 8.7,
-        "metascore": 74,
         "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity.",
-        "setting": "Space"
     },
 
     {
