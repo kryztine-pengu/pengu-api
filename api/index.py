@@ -21,10 +21,16 @@ movies = [
     {
         "id": 1,
         "title": "Spider-Man",
+        "duration": "2h 1m",
         "year": 2002,
+        "age limit": "PG-13",
         "genre": "Action, Superhero",
+        "stars": "Tobey Maguire, Kirsten Dunst, Willem Dafoe", 
         "director": "Sam Raimi",
+        "writers": "Stan Lee, Steve Ditko, David Koepp",
         "rating": 7.4,
+        "user reviews": "2.6k",
+        "metascore": 73,
         "description": "A teenager gains spider-like abilities and learns to use them to become a hero."
     },
 
