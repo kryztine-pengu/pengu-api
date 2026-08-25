@@ -29,7 +29,7 @@ movies = [
         "director": "Sam Raimi",
         "writers": "Stan Lee, Steve Ditko, David Koepp",
         "rating": 7.4,
-        "user reviews": "2.6k",
+        "userreviews": "2.6k",
         "metascore": 73,
         "description": "A teenager gains spider-like abilities and learns to use them to become a hero."
     },
