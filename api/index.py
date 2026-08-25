@@ -58,6 +58,165 @@ movies = [
         "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
     }
 
+    {
+        "id": 5,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 6,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 7,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 8,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 9,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 10,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 11,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 12,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 13,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 14,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 15,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 16,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 17,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 18,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 19,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
+
+    {
+        "id": 20,
+        "title": "Tangled",
+        "year": 2010,
+        "genre": "Animation, Adventure, Comedy",
+        "director": "Nathan Greno and Byron Howard",
+        "rating": 7.7,
+        "description": "A young princess with magical long hair escapes her tower and discovers the world outside."
+    }
 ]
 
 # HOME
