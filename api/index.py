@@ -25,7 +25,7 @@ movies = [
         "year": 2002,
         "agelimit": "PG-13",
         "genre": "Action, Superhero",
-        "stars": "Tobey Maguire, Kirsten Dunst, Willem Dafoe", 
+        "stars": "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
         "director": "Sam Raimi",
         "writers": "Stan Lee, Steve Ditko, David Koepp",
         "streaming": "Netflix",
@@ -33,7 +33,8 @@ movies = [
         "userreviews": "2.6k",
         "metascore": 73,
         "popularity": 59,
-        "description": "A teenager gains spider-like abilities and learns to use them to become a hero."
+        "description": "A teenager gains spider-like abilities and learns to use them to become a hero.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Spider-Man"
     },
 
     {
@@ -41,17 +42,18 @@ movies = [
         "title": "Insidious",
         "duration": "1h 43m",
         "year": 2010,
-        "agelimit": "PG-13", 
+        "agelimit": "PG-13",
         "genre": "Horror, Mystery",
-        "stars": "Patrick Wilson, Rose Byrne, Ty Simpkins", 
+        "stars": "Patrick Wilson, Rose Byrne, Ty Simpkins",
         "director": "James Wan",
         "writers": "Leigh Whannell",
         "streaming": "Netflix",
         "rating": 6.8,
-        "userreviews": "1.1k", 
+        "userreviews": "1.1k",
         "metascore": 52,
         "popularity": 48,
-        "description": "A family discovers that their son is trapped in a mysterious supernatural realm."
+        "description": "A family discovers that their son is trapped in a mysterious supernatural realm.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Insidious"
     },
 
     {
@@ -69,7 +71,8 @@ movies = [
         "userreviews": "1.3k",
         "metascore": 75,
         "popularity": 570,
-        "description": "A fearless princess sets out to find her sister and save their kingdom from an eternal winter."
+        "description": "A fearless princess sets out to find her sister and save their kingdom from an eternal winter.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Frozen"
     },
 
     {
@@ -81,15 +84,16 @@ movies = [
         "genre": "Animation, Adventure, Fantasy",
         "stars": "Mandy Moore, Zachary Levi, Donna Murphy",
         "director": "Nathan Greno and Byron Howard",
-        "writers": "Dan FogelmanJacob GrimmWilhelm Grimm",
+        "writers": "Dan Fogelman, Jacob Grimm, Wilhelm Grimm",
         "streaming": "Disney+",
         "rating": 8.5,
         "userreviews": 668,
         "metascore": 71,
         "popularity": 636,
-        "description": "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is."
+        "description": "Rapunzel leaves her tower for the first time and discovers the world outside.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Tangled"
     },
-    
+
     {
         "id": 5,
         "title": "Interstellar",
@@ -105,7 +109,8 @@ movies = [
         "userreviews": "7.4k",
         "metascore": 74,
         "popularity": 36,
-        "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity."
+        "description": "A team of astronauts travels through space in search of a new home for humanity.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Interstellar"
     },
 
     {
@@ -118,12 +123,13 @@ movies = [
         "stars": "Elijah Wood, Ian McKellen, Viggo Mortensen",
         "director": "Peter Jackson",
         "writers": "J.R.R. Tolkien, Fran Walsh, Philippa Boyens",
-        "streaming": "Netflilx",
+        "streaming": "Netflix",
         "rating": 8.8,
         "userreviews": "2.9k",
         "metascore": 87,
         "popularity": 413,
-        "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+        "description": "Frodo and Sam continue toward Mordor while the divided fellowship faces new enemies.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Lord+of+the+Rings"
     },
 
     {
@@ -141,7 +147,8 @@ movies = [
         "userreviews": "3.5k",
         "metascore": 82,
         "popularity": 193,
-        "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart."        
+        "description": "The extraordinary life of an Alabama man unfolds through decades of American history.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Forrest+Gump"
     },
 
     {
@@ -159,7 +166,8 @@ movies = [
         "userreviews": "5.2k",
         "metascore": 74,
         "popularity": 61,
-        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster."        
+        "description": "A thief enters people's dreams to steal secrets and is given a dangerous new mission.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Inception"
     },
 
     {
@@ -177,7 +185,8 @@ movies = [
         "userreviews": 526,
         "metascore": 69,
         "popularity": 150,
-        "description": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown."
+        "description": "The Platt family bands together after a cosmic event transports their neighborhood to an unknown place.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Oak+Street"
     },
 
     {
@@ -190,30 +199,13 @@ movies = [
         "stars": "Michael Johnston, Inde Navarrette, Cooper Tomlinson",
         "director": "Curry Barker",
         "writers": "Curry Barker",
-        "streaming": "Onlibe Websites",
+        "streaming": "Online Websites",
         "rating": 7.8,
         "userreviews": "339k",
         "metascore": 77,
         "popularity": 286,
-        "description": "After breaking the mysterious "One Wish Willow" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
-    },
-
-    {
-        "id": 10,
-        "title": "Obsession",
-        "duration": "1h 49m",
-        "year": 2026,
-        "agelimit": "R-18",
-        "genre": "Romance, Horror, Thriller",
-        "stars": "Michael Johnston, Inde Navarrette, Cooper Tomlinson",
-        "director": "Curry Barker",
-        "writers": "Curry Barker",
-        "streaming": "Onlibe Websites",
-        "rating": 7.8,
-        "userreviews": "339k",
-        "metascore": 77,
-        "popularity": 286,
-        "description": "After breaking the mysterious "One Wish Willow" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price."
+        "description": "After making a mysterious wish to win his crush's heart, a hopeless romantic discovers that some desires come at a sinister price.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Obsession"
     },
 
     {
@@ -231,7 +223,8 @@ movies = [
         "userreviews": "4.5k",
         "metascore": 77,
         "popularity": 600,
-        "description": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
+        "description": "A science teacher wakes up alone on a spaceship and discovers a mission to save Earth's sun.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Project+Hail+Mary"
     },
 
     {
@@ -249,28 +242,10 @@ movies = [
         "userreviews": "924",
         "metascore": 63,
         "popularity": 28,
-        "description": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
+        "description": "A fashion magazine editor faces new challenges as her protégé rises in the industry.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Devil+Wears+Prada"
     },
 
-[
-    {
-        "id": 12,
-        "title": "The Devil Wears Prada 2",
-        "duration": "1h 59m",
-        "year": 2026,
-        "agelimit": "PG-13",
-        "genre": "Comedy, Drama",
-        "stars": "Meryl Streep, Anne Hathaway, Emily Blunt",
-        "director": "Phil Lord, Christopher Miller",
-        "writers": "Lauren Weisberger, Aline Brosh McKenna",
-        "streaming": "Disney+",
-        "rating": 6.3,
-        "userreviews": "924",
-        "metascore": 63,
-        "popularity": 28,
-        "description": "A fashion magazine editor faces new challenges as her protégée rises in the industry."
-    },
-    
     {
         "id": 13,
         "title": "X-Men",
@@ -286,9 +261,10 @@ movies = [
         "userreviews": "1.6k",
         "metascore": 64,
         "popularity": 49,
-        "description": "Mutants face discrimination while two opposing groups clash over humanity’s fate."
+        "description": "Mutants face discrimination while two opposing groups clash over humanity's fate.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=X-Men"
     },
-    
+
     {
         "id": 14,
         "title": "The Matrix",
@@ -304,9 +280,10 @@ movies = [
         "userreviews": "6.1k",
         "metascore": 73,
         "popularity": 500,
-        "description": "A hacker discovers reality is a simulation and joins a rebellion against machines."
+        "description": "A hacker discovers that reality is a simulation and joins a rebellion against machines.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Matrix"
     },
-    
+
     {
         "id": 15,
         "title": "Avatar",
@@ -322,9 +299,10 @@ movies = [
         "userreviews": "8.2k",
         "metascore": 83,
         "popularity": 700,
-        "description": "A paraplegic marine is sent to Pandora and becomes torn between duty and love."
+        "description": "A marine travels to Pandora and becomes torn between duty and his growing connection to the world.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Avatar"
     },
-    
+
     {
         "id": 16,
         "title": "The Dark Knight",
@@ -340,9 +318,10 @@ movies = [
         "userreviews": "9.5k",
         "metascore": 84,
         "popularity": 850,
-        "description": "Batman faces chaos unleashed by the Joker in Gotham City."
+        "description": "Batman faces chaos unleashed by the Joker while protecting Gotham City.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Dark+Knight"
     },
-    
+
     {
         "id": 17,
         "title": "Titanic",
@@ -358,8 +337,10 @@ movies = [
         "userreviews": "10.1k",
         "metascore": 75,
         "popularity": 900,
-        "description": "A romance blossoms aboard the ill-fated Titanic."
+        "description": "A romance blossoms between two passengers aboard the ill-fated Titanic.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Titanic"
     },
+
     {
         "id": 18,
         "title": "Jurassic Park",
@@ -375,9 +356,10 @@ movies = [
         "userreviews": "7.8k",
         "metascore": 68,
         "popularity": 720,
-        "description": "Dinosaurs are brought back to life in a theme park, but chaos ensues."
+        "description": "Dinosaurs are brought back to life in a theme park, but the experiment quickly becomes dangerous.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Jurassic+Park"
     },
-    
+
     {
         "id": 19,
         "title": "Shrek",
@@ -393,9 +375,10 @@ movies = [
         "userreviews": "4.2k",
         "metascore": 84,
         "popularity": 650,
-        "description": "An ogre embarks on a quest to rescue a princess with unexpected results."
+        "description": "An ogre embarks on a quest to rescue a princess and discovers an unexpected friendship.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Shrek"
     },
-    
+
     {
         "id": 20,
         "title": "The Lion King",
@@ -411,9 +394,10 @@ movies = [
         "userreviews": "5.9k",
         "metascore": 88,
         "popularity": 780,
-        "description": "A lion cub must embrace his destiny as king after tragedy strikes."
+        "description": "A lion cub must embrace his destiny as king after tragedy strikes his family.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Lion+King"
     },
-    
+
     {
         "id": 21,
         "title": "Finding Nemo",
@@ -429,9 +413,10 @@ movies = [
         "userreviews": "4.7k",
         "metascore": 90,
         "popularity": 710,
-        "description": "A clownfish crosses the ocean to find his missing son."
+        "description": "A clownfish crosses the ocean to find his missing son.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Finding+Nemo"
     },
-    
+
     {
         "id": 22,
         "title": "Coco",
@@ -447,9 +432,10 @@ movies = [
         "userreviews": "3.9k",
         "metascore": 81,
         "popularity": 690,
-        "description": "A boy journeys to the Land of the Dead to uncover his family’s history."
+        "description": "A boy journeys to the Land of the Dead to uncover his family's history.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Coco"
     },
-    
+
     {
         "id": 23,
         "title": "Black Panther",
@@ -457,7 +443,7 @@ movies = [
         "year": 2018,
         "agelimit": "PG-13",
         "genre": "Action, Superhero",
-        "stars": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong’o",
+        "stars": "Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o",
         "director": "Ryan Coogler",
         "writers": "Ryan Coogler, Joe Robert Cole",
         "streaming": "Disney+",
@@ -465,9 +451,11 @@ movies = [
         "userreviews": "6.5k",
         "metascore": 88,
         "popularity": 820,
-        "description": "T’Challa returns to Wakanda to claim his throne and defend his nation."
+        "description": "T'Challa returns to Wakanda to claim his throne and defend his nation.",
+        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Black+Panther"
     }
 ]
+
 
 # HOME
 @app.get("/")
