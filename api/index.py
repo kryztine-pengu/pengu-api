@@ -34,7 +34,6 @@ movies = [
         "metascore": 73,
         "popularity": 59,
         "description": "A teenager gains spider-like abilities and learns to use them to become a hero.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Spider-Man"
     },
 
     {
@@ -53,7 +52,6 @@ movies = [
         "metascore": 52,
         "popularity": 48,
         "description": "A family discovers that their son is trapped in a mysterious supernatural realm.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Insidious"
     },
 
     {
@@ -72,7 +70,6 @@ movies = [
         "metascore": 75,
         "popularity": 570,
         "description": "A fearless princess sets out to find her sister and save their kingdom from an eternal winter.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Frozen"
     },
 
     {
@@ -91,7 +88,6 @@ movies = [
         "metascore": 71,
         "popularity": 636,
         "description": "Rapunzel leaves her tower for the first time and discovers the world outside.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Tangled"
     },
 
     {
@@ -110,7 +106,6 @@ movies = [
         "metascore": 74,
         "popularity": 36,
         "description": "A team of astronauts travels through space in search of a new home for humanity.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Interstellar"
     },
 
     {
@@ -129,7 +124,6 @@ movies = [
         "metascore": 87,
         "popularity": 413,
         "description": "Frodo and Sam continue toward Mordor while the divided fellowship faces new enemies.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Lord+of+the+Rings"
     },
 
     {
@@ -148,7 +142,6 @@ movies = [
         "metascore": 82,
         "popularity": 193,
         "description": "The extraordinary life of an Alabama man unfolds through decades of American history.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Forrest+Gump"
     },
 
     {
@@ -167,7 +160,6 @@ movies = [
         "metascore": 74,
         "popularity": 61,
         "description": "A thief enters people's dreams to steal secrets and is given a dangerous new mission.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Inception"
     },
 
     {
@@ -186,7 +178,6 @@ movies = [
         "metascore": 69,
         "popularity": 150,
         "description": "The Platt family bands together after a cosmic event transports their neighborhood to an unknown place.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Oak+Street"
     },
 
     {
@@ -205,7 +196,6 @@ movies = [
         "metascore": 77,
         "popularity": 286,
         "description": "After making a mysterious wish to win his crush's heart, a hopeless romantic discovers that some desires come at a sinister price.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Obsession"
     },
 
     {
@@ -224,7 +214,6 @@ movies = [
         "metascore": 77,
         "popularity": 600,
         "description": "A science teacher wakes up alone on a spaceship and discovers a mission to save Earth's sun.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Project+Hail+Mary"
     },
 
     {
@@ -243,7 +232,6 @@ movies = [
         "metascore": 63,
         "popularity": 28,
         "description": "A fashion magazine editor faces new challenges as her protégé rises in the industry.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Devil+Wears+Prada"
     },
 
     {
@@ -262,7 +250,6 @@ movies = [
         "metascore": 64,
         "popularity": 49,
         "description": "Mutants face discrimination while two opposing groups clash over humanity's fate.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=X-Men"
     },
 
     {
@@ -281,7 +268,6 @@ movies = [
         "metascore": 73,
         "popularity": 500,
         "description": "A hacker discovers that reality is a simulation and joins a rebellion against machines.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Matrix"
     },
 
     {
@@ -300,7 +286,6 @@ movies = [
         "metascore": 83,
         "popularity": 700,
         "description": "A marine travels to Pandora and becomes torn between duty and his growing connection to the world.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Avatar"
     },
 
     {
@@ -319,7 +304,6 @@ movies = [
         "metascore": 84,
         "popularity": 850,
         "description": "Batman faces chaos unleashed by the Joker while protecting Gotham City.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Dark+Knight"
     },
 
     {
@@ -338,7 +322,6 @@ movies = [
         "metascore": 75,
         "popularity": 900,
         "description": "A romance blossoms between two passengers aboard the ill-fated Titanic.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Titanic"
     },
 
     {
@@ -357,7 +340,6 @@ movies = [
         "metascore": 68,
         "popularity": 720,
         "description": "Dinosaurs are brought back to life in a theme park, but the experiment quickly becomes dangerous.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Jurassic+Park"
     },
 
     {
@@ -376,7 +358,6 @@ movies = [
         "metascore": 84,
         "popularity": 650,
         "description": "An ogre embarks on a quest to rescue a princess and discovers an unexpected friendship.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Shrek"
     },
 
     {
@@ -395,7 +376,6 @@ movies = [
         "metascore": 88,
         "popularity": 780,
         "description": "A lion cub must embrace his destiny as king after tragedy strikes his family.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=The+Lion+King"
     },
 
     {
@@ -414,7 +394,6 @@ movies = [
         "metascore": 90,
         "popularity": 710,
         "description": "A clownfish crosses the ocean to find his missing son.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Finding+Nemo"
     },
 
     {
@@ -433,7 +412,6 @@ movies = [
         "metascore": 81,
         "popularity": 690,
         "description": "A boy journeys to the Land of the Dead to uncover his family's history.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Coco"
     },
 
     {
@@ -452,7 +430,6 @@ movies = [
         "metascore": 88,
         "popularity": 820,
         "description": "T'Challa returns to Wakanda to claim his throne and defend his nation.",
-        "poster": "https://placehold.co/600x900/17182b/a78bfa?text=Black+Panther"
     }
 ]
 
